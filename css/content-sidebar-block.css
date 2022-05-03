@@ -1,0 +1,24 @@
+/*
+Only applied to block in back end, because .wp-admin
+Front end styles via theme folder -> /assets/src/scss/blocks/_nav-content.scss
+*/
+
+.wp-admin .block-content-sidebar {
+    background-color: #ffffff;
+}
+
+.wp-admin .block-content-sidebar .wrap {
+    display: flex;
+}
+
+.wp-admin .block-content-sidebar__sidebar {
+    background-color: #e4e4e4; /* Placeholder demo the layout in the admin */
+    flex: 1;
+    padding: 1rem;
+}
+
+.wp-admin .block-content-sidebar__content {
+    flex: 3;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
