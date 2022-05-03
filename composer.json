@@ -1,0 +1,22 @@
+{
+  "name": "nickdavis/content-sidebar-block",
+  "description": "WordPress plugin which adds a Content Sidebar block to the block editor. Requires developer setup and the Advanced Custom Fields PRO WordPress plugin.",
+  "type": "wordpress-plugin",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Davis"
+    }
+  ],
+  "require": {
+    "brightnucleus/view": "^0.4.9",
+    "nickdavis/acf-block-helper": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NickDavis\\ContentSidebarBlock\\": "src/"
+    }
+  }
+}
